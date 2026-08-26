@@ -13,6 +13,13 @@ return {
     window = {
       width = 30, -- Keeps the side window a clean, fixed size
     },
+
+    filesystem = {
+      filtered_items = {
+        hide_dotfiles = false,   -- Shows files starting with a dot (like .gitignore)
+        hide_gitignored = false, -- Shows files listed inside your .gitignore file
+      },
+    },
   },
 
   -- 2. Your keymap configuration function block
