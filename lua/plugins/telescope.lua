@@ -25,6 +25,8 @@ return {
     -- The two essential shortcuts
     vim.keymap.set('n', '<leader>f', builtin.find_files, { desc = 'Telescope find files' })
     vim.keymap.set('n', '<leader>g', builtin.live_grep, { desc = 'Telescope live grep' })
+    vim.keymap.set('n', '<leader>b', builtin.buffers, { desc = 'Telescope open buffers' })
+
   end,
 }
 
